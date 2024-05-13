@@ -32,7 +32,7 @@ def summarize_text(text):
 
 
 
-genai.configure(api_key="AIzaSyBc9QNEpWjPn-V6btBV__ZAcLUexxu_WOI")
+genai.configure(api_key=API_KEY_GOOGLE_API)
 
 generation_config = {
   "temperature": 0.7,
