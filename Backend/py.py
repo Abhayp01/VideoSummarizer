@@ -36,7 +36,7 @@ def summarize_text(text):
 
 
 # Configure Gemini API access
-genai.configure(api_key="AIzaSyBc9QNEpWjPn-V6btBV__ZAcLUexxu_WOI")
+genai.configure(api_key=API_KEY)
 
 # Set up the model
 generation_config = {
